@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  overflow: hidden;
+}
+
+.marker {
+  fill: rgb(4, 128, 41);
+  transform: translate(-50%, -100%);
+}
+
+.logEntryMarker {
+  fill: red;
+}
+
+.logEntryPopup {
+  width: 40vw;
+  padding: 1rem;
+}
+
+Popup{
+  max-width: 40vw;
+}
+
+.entry-form label,
+.entry-form input,
+.entry-form textarea,
+.entry-form button {
+  font-size: 1rem;
+  margin: 0.5rem 0;
+  display: block;
+  width: 100%;
+}
+
+.image {
+  height: 200px;
+  width: auto;
+  margin: 0 auto;
+}
